@@ -1,7 +1,29 @@
 aid: silk-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/silk-labs.png
 name: Silk Labs
-description: Silk Labs is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Silk Labs was an on-device artificial intelligence startup founded in 2015 by
+  former Mozilla CTO Andreas Gal together with Chris Jones and Michael Vines, a team
+  drawn from Mozilla's Firefox OS effort. The company's open-source Silk platform
+  layered a Node.js runtime on Android so developers could build Internet of Things
+  applications entirely in JavaScript, and it later shipped work on the "Sense" AI
+  home camera focused on running real-time visual and audio recognition directly on
+  the device. Silk Labs was backed by investors including 500 Global and was acquired
+  by Apple in November 2018, after which it ceased independent operations; the
+  silklabs.com domain is now parked on Apple nameservers. Its open-source Silk code,
+  GitHub organization, and npm packages remain publicly available and are captured in
+  this profile.
 url: https://raw.githubusercontent.com/api-evangelist/silk-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Apple
+x-acquired-date: '2018-11-22'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Internet of Things
+- On-Device AI
+- JavaScript
+- Open Source
+- SDK
+- Computer Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,24 @@ maintainers:
 common:
 - type: Website
   url: https://silklabs.com
+- type: GitHubOrganization
+  url: https://github.com/silklabs
+- type: SourceCode
+  url: https://github.com/silklabs/silk
+- type: Documentation
+  url: https://github.com/silklabs/silk/tree/master/docs/tutorial
+- type: Packages
+  url: packages/silk-labs-packages.yml
+- type: SDKs
+  url: packages/silk-labs-packages.yml
+- type: CLI
+  url: cli/silk-labs-cli.yml
+- type: LLMsTxt
+  url: llms/silk-labs-llms.txt
+- type: DomainSecurity
+  url: security/silk-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

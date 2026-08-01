@@ -1,0 +1,27 @@
+# Silk Labs
+
+> Silk Labs was an on-device artificial intelligence company founded in 2015 by former Mozilla CTO Andreas Gal with Chris Jones and Michael Vines (Firefox OS alumni). Its open-source Silk platform let developers build IoT applications in JavaScript on an Android + Node.js runtime; the company later built the "Sense" AI home camera. Silk Labs was acquired by Apple in November 2018 and no longer operates independently — silklabs.com is parked on Apple nameservers. The open-source Silk code, GitHub org, and npm packages remain publicly available.
+
+## Status
+- Independent operations ceased: acquired by Apple, November 2018
+- Website silklabs.com: parked (Apple nameservers, no web A record)
+- Backed by: 500 Global (portfolio lead source for this profile)
+
+## Source Code
+- Silk (open source IoT platform): https://github.com/silklabs/silk
+- GitHub organization (38 repos): https://github.com/silklabs
+
+## Packages (npm, MIT)
+- silk-cli — Silk Developer CLI: https://www.npmjs.com/package/silk-cli
+- silk-emulator — Silk Emulator: https://www.npmjs.com/package/silk-emulator
+- babel-preset-silk-node6: https://www.npmjs.com/package/babel-preset-silk-node6
+- babel-preset-silk-node4: https://www.npmjs.com/package/babel-preset-silk-node4
+
+## Docs
+- Silk tutorial docs: https://github.com/silklabs/silk/tree/master/docs/tutorial
+- CLI reference: https://github.com/silklabs/silk/blob/master/docs/tutorial/cli-reference.md
+
+## Artifacts (this repo)
+- packages/silk-labs-packages.yml — first-party npm client libraries
+- cli/silk-labs-cli.yml — Silk CLI command surface
+- security/silk-labs-domain-security.yml — probed DNS/TLS/email posture

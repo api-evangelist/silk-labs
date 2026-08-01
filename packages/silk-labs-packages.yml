@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org (packages resolve to git+https://github.com/silklabs/silk.git)
+note: >-
+  Silk Labs is defunct as an independent company (acquired by Apple, Nov 2018;
+  silklabs.com is now parked on Apple nameservers). These npm packages remain the
+  provider's real first-party client libraries for the open-source Silk IoT/JavaScript
+  platform. Last published circa 2017.
+packages:
+- language: javascript
+  registry: npm
+  name: silk-cli
+  url: https://www.npmjs.com/package/silk-cli
+  install: npm install -g silk-cli
+  version: 1.14.6
+  license: MIT
+  repository: https://github.com/silklabs/silk
+  official: true
+- language: javascript
+  registry: npm
+  name: silk-emulator
+  url: https://www.npmjs.com/package/silk-emulator
+  install: npm install -g silk-emulator
+  version: 1.14.5
+  license: MIT
+  repository: https://github.com/silklabs/silk
+  official: true
+- language: javascript
+  registry: npm
+  name: babel-preset-silk-node6
+  url: https://www.npmjs.com/package/babel-preset-silk-node6
+  install: npm install babel-preset-silk-node6
+  version: 1.14.5
+  license: MIT
+  repository: https://github.com/silklabs/silk
+  official: true
+- language: javascript
+  registry: npm
+  name: babel-preset-silk-node4
+  url: https://www.npmjs.com/package/babel-preset-silk-node4
+  install: npm install babel-preset-silk-node4
+  version: 1.4.0
+  license: MIT
+  repository: https://github.com/silklabs/silk
+  official: true

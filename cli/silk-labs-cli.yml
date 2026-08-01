@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/silklabs/silk/blob/master/README.md
+name: Silk CLI
+summary: >-
+  The Silk Command Line Interface (silk-cli) is the unified tool for building and
+  deploying Silk programs to a Silk device or emulator. Silk is an open-source IoT
+  platform (Android + a Node.js layer) that lets developers write IoT applications
+  in JavaScript. Distributed via npm under the MIT license; last published circa 2017.
+binary: silk
+package: silk-cli
+install:
+- method: npm
+  command: npm install -g silk-cli
+- method: npm
+  component: emulator
+  command: npm install -g silk-emulator
+commands:
+- command: silk init <program_name>
+  description: Scaffold a new Silk program.
+- command: silk run
+  description: Build and deploy the program to a connected Silk device or emulator.
+prerequisites:
+- adb devices  # verify device connectivity (Android Debug Bridge)
+docs: https://github.com/silklabs/silk/tree/master/docs/tutorial
